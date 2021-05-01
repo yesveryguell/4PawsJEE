@@ -27,7 +27,7 @@ public class LoginServlet extends HttpServlet {
 
             out.close();
 
-        }catch(Exception e){
+        } catch (Exception e) {
             System.out.println(e);
         }
 
