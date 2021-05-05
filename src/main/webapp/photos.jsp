@@ -33,9 +33,9 @@
 <div class="container-contact100">
 
     <div class="wrap-contact100">
-        <form class="contact100-form validate-form">
+        <form class="contact100-form validate-form" methos="POST" enctype="multipart/form-data">
 				<span class="contact100-form-title">
-					Send Us A Message
+					Write the name of your pet
 				</span>
 
             <div class="wrap-input100 validate-input" data-validate="Please enter your description">
@@ -56,9 +56,28 @@
         </form>
     </div>
 </div>
-
+<table id="datatable" class="datatable">
+    <thead>
+    <tr>
+        <th>Fecha de carga</th>
+        <th>Descripcion</th>
+        <th>Fotografia</th>
+        <th>Descarga</th>
+    </tr>
+    </thead>
+    <tbody id="lines">
+    <tr>
+        <td>03/05/21</td>
+        <td>Perro hermosito</td>
+        <td>perro.jpeg</td>
+        <td><input type="button" value = "descarga" name="" id=""></td>
+    </tr>
+    </tbody>
+</table>
 
 <div id="dropDownSelect1"></div>
+
+
 
 <!--===============================================================================================-->
 <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
