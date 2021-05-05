@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4499828c-a09f-4dfe-a0af-747b9693971b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/photos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/photos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/photos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/photos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence/dato.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence/dato.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +44,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felip\4PawsJEE\src\main\java\edu\unbosque\persistence" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\felip\4PawsJEE\src\main\webapp\css" />
       <recent name="C:\Users\felip\4PawsJEE\src\main\webapp" />
@@ -56,17 +61,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TomEE 8.5.57" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 8.5.57" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="4PawsJEE:war exploded">
@@ -117,7 +111,8 @@
       <workItem from="1619900776261" duration="5956000" />
       <workItem from="1619917653236" duration="2172000" />
       <workItem from="1620073064005" duration="2584000" />
-      <workItem from="1620170230779" duration="5626000" />
+      <workItem from="1620170230779" duration="8371000" />
+      <workItem from="1620252910202" duration="332000" />
     </task>
     <servers />
   </component>
