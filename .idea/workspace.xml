@@ -10,33 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4499828c-a09f-4dfe-a0af-747b9693971b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/util.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/map-marker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unbosque/PawsJEE/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unbosque/PawsJEE/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/avatar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/avatar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/bg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/photos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/photos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/img/avatar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/img/avatar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/img/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/img/bg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/photos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/photos.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,6 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -125,7 +114,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619900767455</updated>
-      <workItem from="1619900776261" duration="5132000" />
+      <workItem from="1619900776261" duration="5956000" />
+      <workItem from="1619917653236" duration="2172000" />
+      <workItem from="1620073064005" duration="2584000" />
+      <workItem from="1620170230779" duration="5626000" />
     </task>
     <servers />
   </component>
@@ -142,5 +134,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
