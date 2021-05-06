@@ -8,6 +8,7 @@ import javax.servlet.annotation.*;
 public class LoginServlet extends HttpServlet {
     private String message;
 
+
     public void init() {
         message = "Hello World!";
     }

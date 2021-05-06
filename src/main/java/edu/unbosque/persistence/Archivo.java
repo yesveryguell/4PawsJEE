@@ -61,13 +61,14 @@ public class Archivo {
 			} catch (FileNotFoundException e) {
 
 				e.printStackTrace();
+				System.out.println(e);
 
 			} catch (IOException e) {
-
 				e.printStackTrace();
+				System.out.println(e);
 			} catch (ClassNotFoundException e) {
-
 				e.printStackTrace();
+				System.out.println(e);
 			}
 		}
 
