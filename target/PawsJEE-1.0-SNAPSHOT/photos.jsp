@@ -3,6 +3,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
     <title>Contact V10</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,20 +61,18 @@
 <div class="container-contact100">
 
     <div class="wrap-contact100">
-        <form class="contact100-form validate-form" methos="POST" enctype="multipart/form-data">
+        <form class="contact100-form validate-form" method="POST" enctype="multipart/form-data" action="datos"
+              name="subida-imagenes">
 				<span class="contact100-form-title">
-					Write the name of your pet
+					Four Paws Citizens
 				</span>
-
             <div class="wrap-input100 validate-input" data-validate="Please enter your description">
                 <textarea class="input100" name="message" placeholder="Your Message"></textarea>
                 <span class="focus-input100"></span>
             </div>
-            <form name="subida-imagenes" type="POST" enctype="multipart/formdata">
-                <input type="file" name="imagen"/>
-            </form>
+            <input type="file" name="imagen"/>
             <div class="container-contact100-form-btn">
-                <button class="contact100-form-btn">
+                <button class="contact100-form-btn" href="printTable">
 						<span>
 							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
 							Send
@@ -55,29 +81,47 @@
             </div>
         </form>
     </div>
-    <table id="datatable" class="datatable">
+</div>
+<div>
+    <table id="customers" class="customers">
         <thead>
         <tr>
             <th>Fecha de carga</th>
             <th>Descripcion</th>
             <th>Fotografia</th>
-            <th>Descarga</th>
         </tr>
         </thead>
         <tbody id="lines">
         <tr>
-            <td>03/05/21</td>
-            <td>Perro hermosito</td>
-            <td>perro.jpeg</td>
-            <td><input type="button" value = "descarga" name="" id=""></td>
         </tr>
         </tbody>
+
     </table>
+
 </div>
+<script>
+    function printTable(servlet) {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                var data = JSON.parse(xhr.responseText);
+                console.log(data)
+                var res = document.querySelector('#lines');
+                res.innerHTML = '';
+                for (let item of data) {
+                    res.innerHTML += '<tr>' + '<td>' + item.fecha + '</td>'
+                        + '<td>' + item.descripcion + '</td>'
+                        + '<td> <img src="fotos\\' + item.foto + '" width="360" height="200">' + '</td>' + '</tr>'
+                }
+            }
+        }
+        xhr.open('GET', '${pageContext.request.contextPath}/' + servlet, true);
+        xhr.send(null);
+    }
 
-
+    printTable(servlet = 'GetCities')
+</script>
 <div id="dropDownSelect1"></div>
-
 
 
 <!--===============================================================================================-->
@@ -96,20 +140,6 @@
 <script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
 <script src="js/main.js"></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'UA-23581568-13');
-</script>
 
 </body>
 </html>

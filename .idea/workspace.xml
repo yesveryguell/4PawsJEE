@@ -10,9 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4499828c-a09f-4dfe-a0af-747b9693971b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/unbosque/PawsJEE/GetCities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence/DuenioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/4PawsJEE_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/4PawsJEE_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence/dato.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence/dato.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4PawsJEE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/4PawsJEE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unbosque/PawsJEE/DataServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unbosque/PawsJEE/DataServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unbosque/PawsJEE/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unbosque/PawsJEE/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence/Archivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence/Archivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence/Duenio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence/Duenio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unbosque/persistence/Propiedades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/photos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/photos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/photos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/PawsJEE-1.0-SNAPSHOT/photos.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +72,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TomEE 8.5.57" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 8.5.57" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="4PawsJEE:war exploded">
@@ -77,6 +99,24 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56533" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -112,7 +152,8 @@
       <workItem from="1619917653236" duration="2172000" />
       <workItem from="1620073064005" duration="2584000" />
       <workItem from="1620170230779" duration="8371000" />
-      <workItem from="1620252910202" duration="332000" />
+      <workItem from="1620252910202" duration="537000" />
+      <workItem from="1620255934881" duration="17619000" />
     </task>
     <servers />
   </component>
